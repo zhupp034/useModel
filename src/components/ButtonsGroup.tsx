@@ -2,8 +2,8 @@ import React from 'react'
 import useModel from '../useModel'
 
 function ButtonsGroup() {
-    const {setCount} =  useModel('useStore1')
-    const {setNum} =  useModel('useStore2')
+    const {setCount} =  useModel('useStore1', ({setCount}) => ({setCount}))
+    const {setNum} =  useModel('useStore2', ({setNum}) => ({setNum}))
   return (
     <div>
         控制按钮列表
