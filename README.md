@@ -8,6 +8,6 @@
 
 ### 总体结构图
 
-`./example`[目录下]('./example/整体流程.png')
+`./example`[目录下](./example/整体流程.png)
 
 
