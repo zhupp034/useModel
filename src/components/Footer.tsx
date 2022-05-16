@@ -6,7 +6,7 @@ function Footer() {
     // console.error(233);
     console.log('Footer');
   return (
-    <div>Footer{num}</div>
+    <div style={{border: '1px solid red'}}>Footer{num}</div>
   )
 }
 

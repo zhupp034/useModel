@@ -9,6 +9,7 @@ import Context from './Helper/Context';
 import Footer from './components/Footer';
 import Body from './components/Body';
 import ButtonsGroup from './components/ButtonsGroup';
+import Nav from './components/Nav';
 
 let models = {useStore1, useStore2}
 
@@ -46,6 +47,7 @@ function App() {
         <ButtonsGroup/>
         <Header/>
         <Body/>
+        <Nav/>
         <Footer></Footer>
       </Context.Provider>
     </div>
