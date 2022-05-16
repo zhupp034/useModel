@@ -1,5 +1,5 @@
 import React from 'react'
-import useModel from '../useModel';
+import useModel from '../Helper/useModel';
 
 function Footer() {
   const {num} =  useModel('useStore2')

@@ -1,7 +1,7 @@
-import GlobalContext from './Helper/Context'
+import GlobalContext from './Context'
+import isEqual from './isEqual'
 import { useState, useEffect, useContext, useRef } from 'react';
-import isEqual from './Helper/isEqual';
-function useModel(namespace, updater) {
+function useModel(namespace, updater?) {
     const globalContext = useContext<any>(GlobalContext);
     const [data, setData] = useState(() => {
         return updater ? updater(globalContext.data[namespace]) : globalContext.data[namespace]

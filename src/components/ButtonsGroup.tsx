@@ -1,5 +1,5 @@
 import React from 'react'
-import useModel from '../useModel'
+import useModel from '../Helper/useModel'
 
 function ButtonsGroup() {
     const {setCount} =  useModel('useStore1', ({setCount}) => ({setCount}))

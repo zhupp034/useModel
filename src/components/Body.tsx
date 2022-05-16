@@ -1,5 +1,6 @@
 import React from 'react'
-import useModel from '../useModel'
+import useModel from '../Helper/useModel';
+
 
 function Body() {
     const {count} =  useModel('useStore1')

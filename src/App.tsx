@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import WrapStore from './storeCom/storeCom1';
+import WrapStore from './Helper/WrapStore';
 
 import useStore1 from './store/store1'
 import useStore2 from './store/store2'

@@ -1,6 +1,6 @@
 import React, {useEffect, useMemo, useRef} from 'react'
 
-function StoreCom1({hook, onUpdate}) {
+function WrapStore({hook, onUpdate}) {
   const data = hook()
   const updateRef = useRef(onUpdate)
   updateRef.current = onUpdate
@@ -34,4 +34,4 @@ function StoreCom1({hook, onUpdate}) {
   return null
 }
 
-export default StoreCom1
+export default WrapStore
